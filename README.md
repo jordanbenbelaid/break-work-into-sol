@@ -1,6 +1,6 @@
-#Task 1 solution
+# Task 1 solution
 
-##Files to tag in Cursor: @src/types/index.ts
+## Files to tag in Cursor: @src/types/index.ts
 ### TASK SPEC 1: Audit Logger Types
 - INPUTS: @src/types/index.ts
 - ACTION: Create a new file `@src/types/audit.ts` that exports two TypeScript interfaces:
@@ -13,9 +13,9 @@
   - Strictly typed with no `any` types.
 - SUCCESS CRITERIA: File compiles cleanly with zero TypeScript errors.
 
-#Task 2 solution
+# Task 2 solution
 
-##Files to tag in Cursor: @src/types/audit.ts
+## Files to tag in Cursor: @src/types/audit.ts
 ### TASK SPEC 2: Redactor & File Logger Logic
 - INPUTS: @src/types/audit.ts
 - ACTION: Create a new file `@src/services/auditService.ts` that exports two functions:
@@ -29,8 +29,8 @@
   - Do NOT use external logging libraries (e.g., Winston, Pino, Lodash); use native Node `fs` and `path` modules only.
 - SUCCESS CRITERIA: File compiles cleanly with zero TypeScript errors.
 
-#Task 3 solution
-##Files to tag in Cursor: @src/types/audit.ts, @src/services/auditService.ts, @src/server.ts
+# Task 3 solution
+## Files to tag in Cursor: @src/types/audit.ts, @src/services/auditService.ts, @src/server.ts
 ### TASK SPEC 3: Express Audit Middleware
 - INPUTS: @src/types/audit.ts, @src/services/auditService.ts, @src/server.ts
 - ACTION: 
